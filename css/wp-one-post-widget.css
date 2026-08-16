@@ -1,0 +1,44 @@
+/**
+ * Structural layout only — visual identity comes from the theme.
+ */
+
+/* Contain floats (left/right) so following widgets are not affected. */
+.wp_one_post_widget .wp-one-post-widget__content {
+	overflow: hidden;
+}
+
+.wp_one_post_widget .wp-one-post-widget__thumbnail {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+/* LEFT */
+.wp_one_post_widget .wp-one-post-widget__thumbnail--left {
+	float: left;
+	display: block;
+	margin: 0 8px 8px 0;
+}
+
+/* RIGHT */
+.wp_one_post_widget .wp-one-post-widget__thumbnail--right {
+	float: right;
+	display: block;
+	margin: 0 0 8px 8px;
+}
+
+/* TOP */
+.wp_one_post_widget .wp-one-post-widget__thumbnail--top {
+	float: none;
+	display: block;
+	clear: both;
+	margin: 0 0 8px 0;
+}
+
+/* Narrow containers: keep floated thumbs from overflowing. */
+@media (max-width: 480px) {
+	.wp_one_post_widget .wp-one-post-widget__thumbnail--left,
+	.wp_one_post_widget .wp-one-post-widget__thumbnail--right {
+		max-width: 45%;
+	}
+}

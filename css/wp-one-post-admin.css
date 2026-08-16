@@ -1,0 +1,21 @@
+/* Structural helpers for the widget form only. */
+
+.wp-one-post-widget-form input.widefat,
+.wp-one-post-widget-form .wp-one-post-widget-search {
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.wp-one-post-widget-form .wp-one-post-widget-options label {
+	display: inline-block;
+	margin-right: 8px;
+}
+
+/* Keep autocomplete above widget panels; no theme/brand styling. */
+.ui-autocomplete {
+	max-height: 220px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 100000;
+}
