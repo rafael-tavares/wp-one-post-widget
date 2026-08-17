@@ -3,7 +3,7 @@
  * Plugin Name:       WP One Post Widget
  * Plugin URI:        https://wordpress.org/plugins/wp-one-post-widget/
  * Description:       Select one specific published post and display it in a widget area.
- * Version:           3.0.0
+ * Version:           3.0.1
  * Requires at least: 5.2
  * Requires PHP:      7.4
  * Author:            Rafael Tavares
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'WP_ONE_POST_WIDGET_VERSION', '3.0.0' );
+define( 'WP_ONE_POST_WIDGET_VERSION', '3.0.1' );
 define( 'WP_ONE_POST_WIDGET_FILE', __FILE__ );
 define( 'WP_ONE_POST_WIDGET_DIR', plugin_dir_path( __FILE__ ) );
 define( 'WP_ONE_POST_WIDGET_URL', plugin_dir_url( __FILE__ ) );
