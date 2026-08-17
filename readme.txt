@@ -2,7 +2,7 @@
 Contributors: Rafael Tavares
 Tags: widget, post, sidebar, featured post, one post
 Requires at least: 5.2
-Tested up to: 6.7
+Tested up to: 7.0
 Requires PHP: 7.4
 Stable tag: 3.0.0
 License: GPLv2 or later
